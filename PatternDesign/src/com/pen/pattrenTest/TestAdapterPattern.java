@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.pen.pattrenTest;
 
 import org.junit.Test;
