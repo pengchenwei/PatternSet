@@ -11,12 +11,20 @@ import com.pen.StrategyPattren.Inter.Strategy;
  * @Copyright: Copyright (c) 2016, pen All Rights Reserved.
  * @See
  */
+<<<<<<< HEAD
 public class Environment {
+=======
+public class Enviroment {
+>>>>>>> refs/remotes/origin/master
 	// 私有变量
 	private Strategy strategy;
 
 	// 构造方法
+<<<<<<< HEAD
 	public Environment(Strategy strategy) {
+=======
+	public Enviroment(Strategy strategy) {
+>>>>>>> refs/remotes/origin/master
 		this.strategy = strategy;
 	}
 

@@ -1,6 +1,10 @@
 package com.pen.pattrenTest;
 
+<<<<<<< HEAD
 import com.pen.StrategyPattren.Environment;
+=======
+import com.pen.StrategyPattren.Enviroment;
+>>>>>>> refs/remotes/origin/master
 import com.pen.StrategyPattren.Impl.AddStrategy;
 import com.pen.StrategyPattren.Impl.SubtarctionStrategy;
 import com.pen.StrategyPattren.Inter.Strategy;
@@ -17,7 +21,11 @@ import com.pen.StrategyPattren.Inter.Strategy;
 public class TestStrategyPattern {
 	public static void main(String[] args) {
 		Strategy strategy = new AddStrategy();
+<<<<<<< HEAD
 		Environment enviroment = new Environment(strategy);
+=======
+		Enviroment enviroment = new Enviroment(strategy);
+>>>>>>> refs/remotes/origin/master
 		System.out.println(enviroment.calculate(3, 4));
 		enviroment.setStrategy(new SubtarctionStrategy());
 		System.out.println(enviroment.calculate(3, 4));
