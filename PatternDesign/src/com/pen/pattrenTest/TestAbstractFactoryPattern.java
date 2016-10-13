@@ -1,10 +1,5 @@
 package com.pen.pattrenTest;
 
-<<<<<<< HEAD
-=======
-import static org.junit.Assert.*;
-
->>>>>>> refs/remotes/origin/master
 import org.junit.Test;
 
 import com.pen.AbstractFactoryPattern.FacrtoryProducer;
